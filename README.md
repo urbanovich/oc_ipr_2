@@ -10,8 +10,11 @@
 Число запущенных процессов в любой момент времени не должно превышать N (вводится пользователем). 
 Проверить работу программы для каталога /usr/include N=6.. 
 
-после компиляции выполнить:
+после загрузки выполнить: 
 
-cd /path/to/project;
-sudo chmod 777 -R .;
-./oc_ipr_2 /usr/include 1 /path/to/desc_dir 6;
+cd /path/to/download/dir; 
+unzip oc_ipr_2-master.zip; 
+make;
+cd dist/Debug/GNU-Linux;
+sudo chmod 777 -R .; 
+./oc_ipr_2 /usr/include 1 /path/to/desc_dir 6; 
