@@ -17,6 +17,7 @@ cd /path/to/download/dir;
 unzip oc_ipr_2-master.zip; 
 cd oc_ipr_2-master; 
 make; 
-cd dist/Debug/GNU-Linux;sudo chmod 777 -R .; 
+cd dist/Debug/GNU-Linux; 
+sudo chmod 777 -R .; 
 ./oc_ipr_2 /usr/include 1 /path/to/desc_dir 6; 
 ```
